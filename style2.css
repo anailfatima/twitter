@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login{
+    margin-top: 10%;
+    margin-left: 35%;
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    padding: 20px ;
+    input{
+        padding: 20px;
+        width:350px;
+    }
+    p{
+        font-size: 40px;
+    }
+}
+input::placeholder
+{
+    font-size: 15px;
+}
+button{
+    border-radius: 30px;
+    border-color: #1da1f2;
+    height: 40px;
+    width: 350px;
+    background-color: #1DA1F2;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border: 2px solid #1da1f2 ;
+    cursor: pointer;
+
+}
+.login a{
+    text-decoration: none;
+    color: #1DA1F2;
+    margin-right: 16%;
+}
